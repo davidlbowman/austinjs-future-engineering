@@ -110,7 +110,7 @@ export default function Home() {
 				</ul>
 			</section>
 			<section>
-				<h2>{"Conclustion"}</h2>
+				<h2>{"Conclusion"}</h2>
 				<p>
 					{
 						"The future of software engineering is bright for those who embrace change, continue to learn, and focus on adding value. By cultivating passion, developing a problem-solving mindset, and continuously expanding your skills, you can secure your place in the industry and contribute to shaping a better world through technology. Remember, the most successful engineers combine technical expertise with creativity, adaptability, and a genuine love for their craft. As you navigate your career, strive to be an engineer, innovator, problem-solver, and lifelong learner. Your journey in software engineering is more than just a job—it's an opportunity to create, solve, and impact the world positively. Embrace the challenges, celebrate the victories, and never stop learning. The future is yours to shape."
