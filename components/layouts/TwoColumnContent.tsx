@@ -19,13 +19,13 @@ function TwoColumnContent({
 	return (
 		<section
 			className={cn(
-				"grid md:grid-cols-2 h-full md:justify-between text-start",
+				"grid lg:grid-cols-2 h-full lg:justify-between text-start",
 				className,
 			)}
 		>
 			<div
 				className={cn(
-					"left-column flex flex-col md:items-start  gap-4",
+					"left-column flex flex-col lg:items-start  gap-4",
 					firstColumnClassName,
 				)}
 			>
@@ -33,7 +33,7 @@ function TwoColumnContent({
 			</div>
 			<div
 				className={cn(
-					"right-column flex flex-col md:items-start  gap-4",
+					"right-column flex flex-col lg:items-start  gap-4",
 					secondColumnClassName,
 				)}
 			>

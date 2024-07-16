@@ -36,9 +36,13 @@ const chartConfig = {
 	},
 } satisfies ChartConfig
 
-function WageComparistonChart() {
+interface WageComparistonChartProps {
+	className?: string
+}
+
+function WageComparistonChart({ className }: WageComparistonChartProps) {
 	return (
-		<Card>
+		<Card className={className}>
 			<CardHeader>
 				<CardTitle>Annual Wage Comparison Across Occupations</CardTitle>
 				<CardDescription>National vs Tech Wage Percentiles</CardDescription>
