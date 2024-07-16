@@ -30,7 +30,7 @@ function ContentCard({
 	return (
 		<Card
 			className={cn(
-				"w-[400px] hover:shadow-lg transition-shadow duration-300 dark:bg-gray-800 border-border flex flex-col",
+				"w-[350px] md:w-[400px] hover:shadow-lg transition-shadow duration-300 border-border flex flex-col bg-background",
 				className,
 			)}
 		>
@@ -54,7 +54,7 @@ function ContentCard({
 					</ul>
 				</CardContent>
 			</div>
-			<CardFooter className="pt-4 border-t border-gray-200 dark:border-gray-700 mt-auto h-16 flex items-center">
+			<CardFooter className="pt-4 border-t border-gray-400 dark:border-gray-700 mt-auto h-16 flex items-center">
 				<Link
 					href={asset}
 					className="flex items-center transition-colors duration-200 w-full"

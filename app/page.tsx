@@ -36,11 +36,13 @@ export default function Home() {
 						<li>{"High demand persists for skilled, adaptable engineers"}</li>
 					</ul>
 				</>
-				<WageComparistonChart className="w-4/5" />
+				<WageComparistonChart />
 			</TwoColumnContent>
-			<section className="grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 gap-4 p-4">
+			<section className="grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 gap-4 p-4 justify-items-center">
 				<div className="col-span-full">
-					<h2 className="font-bold mb-4">{"Navigating the Future of SWE"}</h2>
+					<h2 className="font-bold mb-4 text-center text-balance">
+						{"Navigating the Future of SWE"}
+					</h2>
 				</div>
 				<ContentCard
 					className="h-full"

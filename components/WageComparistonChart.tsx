@@ -14,6 +14,7 @@ import {
 	ChartTooltip,
 	ChartTooltipContent,
 } from "@/components/ui/chart"
+import { cn } from "@/lib/utils"
 import Link from "next/link"
 import { Bar, BarChart, CartesianGrid, XAxis, YAxis } from "recharts"
 
@@ -42,7 +43,7 @@ interface WageComparistonChartProps {
 
 function WageComparistonChart({ className }: WageComparistonChartProps) {
 	return (
-		<Card className={className}>
+		<Card className={cn("bg-background", className)}>
 			<CardHeader>
 				<CardTitle>Annual Wage Comparison Across Occupations</CardTitle>
 				<CardDescription>National vs Tech Wage Percentiles</CardDescription>
