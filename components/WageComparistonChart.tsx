@@ -28,11 +28,11 @@ const chartData = [
 const chartConfig = {
 	national: {
 		label: "National Wage Percentiles",
-		color: "hsl(var(--chart-1))",
+		color: "hsl(var(--primary))",
 	},
 	tech: {
 		label: "Tech Wage Percentiles",
-		color: "hsl(var(--chart-2))",
+		color: "hsl(var(--secondary))",
 	},
 } satisfies ChartConfig
 

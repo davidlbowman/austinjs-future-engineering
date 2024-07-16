@@ -30,16 +30,16 @@ function ContentCard({
 	return (
 		<Card
 			className={cn(
-				"w-[400px] hover:shadow-lg transition-shadow duration-300 bg-white dark:bg-gray-800 border-2 border-gray-400 flex flex-col",
+				"w-[400px] hover:shadow-lg transition-shadow duration-300 dark:bg-gray-800 border-border flex flex-col",
 				className,
 			)}
 		>
 			<div className="flex-grow flex flex-col">
 				<CardHeader className="space-y-1">
-					<CardTitle className="text-2xl font-bold text-gray-800 dark:text-white">
+					<CardTitle className="text-2xl font-bold text-balance">
 						{title}
 					</CardTitle>
-					<CardDescription className="text-sm text-gray-500 dark:text-gray-400">
+					<CardDescription className="text-sm text-muted-foreground">
 						{description}
 					</CardDescription>
 				</CardHeader>
@@ -47,8 +47,8 @@ function ContentCard({
 					<ul className="space-y-2">
 						{list.map((item) => (
 							<li key={item} className="flex items-start">
-								<span className="mr-2 text-green-500">•</span>
-								<span className="text-gray-700 dark:text-gray-300">{item}</span>
+								<span className="mr-2 text-secondary-foreground">•</span>
+								<span>{item}</span>
 							</li>
 						))}
 					</ul>
@@ -57,7 +57,7 @@ function ContentCard({
 			<CardFooter className="pt-4 border-t border-gray-200 dark:border-gray-700 mt-auto h-16 flex items-center">
 				<Link
 					href={asset}
-					className="flex items-center hover:text-blue-800 transition-colors duration-200 w-full"
+					className="flex items-center transition-colors duration-200 w-full"
 				>
 					<span className="mr-2 flex-grow truncate">{assetTitle}</span>
 					<ExternalLink size={16} className="flex-shrink-0" />
