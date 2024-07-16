@@ -32,7 +32,7 @@
 - Passion fuels perseverance in challenging times
 
 ### Adapt to Blurred Roles
-- Understand both frontend and backend concepts
+- Understand both frontend and backend concepts 
 - Embrace the full-stack mentality, even if you specialize
 - Recognize the value of understanding the entire development process
 
