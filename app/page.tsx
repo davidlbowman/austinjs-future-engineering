@@ -1,36 +1,41 @@
+import { WageComparistonChart } from "@/components/WageComparistonChart"
+import { TwoColumnContent } from "@/components/layouts/TwoColumnContent"
 import Link from "next/link"
 
 export default function Home() {
 	return (
 		<main>
-			<section>
-				<h1>{"Navigating Complexity & Change"}</h1>
-				<h2>{"The Evolving Landscape of Software Engineering"}</h2>
-				<h3>{"Historical Perspective (1960s to Present)"}</h3>
-				<ul>
-					<li>
-						{
-							"From specialized roles (algorithmic engineers, UI specialists, backend developers) to full-stack expectations"
-						}
-					</li>
-					<li>{"Evolution of programming languages and paradigms"}</li>
-					<li>{"Increasing importance of cybersecurity and data privacy"}</li>
-				</ul>
-				<h3>{"Current Trends"}</h3>
-				<ul>
-					<li>
-						{
-							"Job market fluctuations tied to economic factors (e.g., interest rates)"
-						}
-					</li>
+			<h1>{"Navigating Complexity & Change"}</h1>
+			<h2>{"The Evolving Landscape of Software Engineering"}</h2>
+			<TwoColumnContent className="items-center">
+				<>
+					<h3>{"Historical Perspective (1960s to Present)"}</h3>
 					<ul>
-						<li>{"Engineers in financially unstable companies"}</li>
-						<li>{"Those who haven't kept their skills current"}</li>
+						<li>
+							{
+								"From specialized roles (algorithmic engineers, UI specialists, backend developers) to full-stack expectations"
+							}
+						</li>
+						<li>{"Evolution of programming languages and paradigms"}</li>
+						<li>{"Increasing importance of cybersecurity and data privacy"}</li>
 					</ul>
-					<li>{"Layoffs primarily affecting:"}</li>
-					<li>{"High demand persists for skilled, adaptable engineers"}</li>
-				</ul>
-			</section>
+					<h3>{"Current Trends"}</h3>
+					<ul>
+						<li>
+							{
+								"Job market fluctuations tied to economic factors (e.g., interest rates)"
+							}
+						</li>
+						<ul>
+							<li>{"Engineers in financially unstable companies"}</li>
+							<li>{"Those who haven't kept their skills current"}</li>
+						</ul>
+						<li>{"Layoffs primarily affecting:"}</li>
+						<li>{"High demand persists for skilled, adaptable engineers"}</li>
+					</ul>
+				</>
+				<WageComparistonChart />
+			</TwoColumnContent>
 			<section>
 				<h2>{"Navigating the Future of SWE"}</h2>
 				<h3>{"Embrace Continuous Learning"}</h3>
@@ -69,7 +74,7 @@ export default function Home() {
 						}
 					</li>
 				</ul>
-				<h3>{"Cultivate Essential REAL Skills"}</h3>
+				<h3>{'Cultivate Essential "Soft" Skills'}</h3>
 				<ul>
 					<li>
 						{
