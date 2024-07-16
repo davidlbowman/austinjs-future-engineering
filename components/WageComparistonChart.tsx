@@ -33,7 +33,7 @@ const chartConfig = {
 	},
 	tech: {
 		label: "Tech Wage Percentiles",
-		color: "hsl(var(--secondary))",
+		color: "hsl(var(--text-secondary-foreground))",
 	},
 } satisfies ChartConfig
 
